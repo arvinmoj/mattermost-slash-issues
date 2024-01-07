@@ -1,1 +1,1 @@
-# mattermost-slash-issues
+# Mattermost Slash Issues
