@@ -1,0 +1,5 @@
+version: '3.9'
+services:
+  app:
+    image: Telegram_bot:v0.1
+    restart: always
