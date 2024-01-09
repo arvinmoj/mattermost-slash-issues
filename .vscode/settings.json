@@ -1,0 +1,8 @@
+{
+    "cSpell.words": [
+        "dotenv",
+        "jsonify",
+        "mattermostdriver"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
