@@ -1,5 +1,16 @@
 version: '3.9'
 services:
-  app:
-    image: Telegram_bot:v0.1
+  commands:
+    image: slash-issues:v3
+    command: gunicorn --bind 0.0.0.0:5001 run:app
+    ports:
+      - "5001:5001"
     restart: always
+    # networks:
+    #   confnetwork:
+
+# networks:
+#   confnetwork:
+#     ipam:
+#       config:
+#         - subnet: 172.16.0.0/16
